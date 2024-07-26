@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://kombiahrk.github.io/ci-cd-using-github-action",
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
